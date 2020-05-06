@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home"
+    tools:context=".pesanan">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="16dp"
+        android:background="@color/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/myorders"
+        android:layout_width="34dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="136dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/riwayat"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Dalam Proses"
+        android:textColor="@color/home"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.571" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="339dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Pesanan Sekarang Yuk"
+        android:textColor="@color/garis"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/proses"
+        android:onClick="proses"
+        android:layout_width="39dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/riwayat"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <ImageView
+        android:layout_width="378dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="36dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/home"
+        android:textColor="@color/akun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="57dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/utama"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/pesanan"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="57dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/pesanan"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <ImageView
+        android:id="@+id/profil"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="57dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/user"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

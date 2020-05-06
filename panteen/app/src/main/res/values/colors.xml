@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bgHome">#5cd65c</color>
+    <color name="fontcolor">#F8EFEF</color>
+    <color name="login">#0033cc</color>
+    <color name="home">#FFFFFF</color>
+    <color name="garis">#000000</color>
+    <color name="akun">#000000</color>
+    <color name="abu">#737373</color>
+
+</resources>
